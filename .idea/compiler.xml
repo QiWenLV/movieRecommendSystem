@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="businessServer" />
+        <module name="commons_config" />
+        <module name="dataloader" />
+        <module name="kafkaStreaming" />
+        <module name="movieUI" />
+        <module name="offlineRecommender" />
+        <module name="StaticticsRecommender" />
+        <module name="streamingRecommender" />
+        <module name="website" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="businessServer" target="1.8" />
+      <module name="commons_config" target="1.8" />
+      <module name="dataloader" target="1.8" />
+      <module name="kafkaStreaming" target="1.8" />
+      <module name="movieRecommendSystem" target="1.8" />
+      <module name="movieUI" target="1.8" />
+      <module name="offlineRecommender" target="1.8" />
+      <module name="recommender" target="1.8" />
+      <module name="StaticticsRecommender" target="1.8" />
+      <module name="streamingRecommender" target="1.8" />
+      <module name="website" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
